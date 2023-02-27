@@ -10,7 +10,7 @@
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="mystyle.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
   </head>
   <body>
     
@@ -33,7 +33,7 @@
                 <a class="nav-link" aria-current="page" href="employees.php">Employees</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="page-3.php">Page 3</a>
+                <a class="nav-link" aria-current="page" href="contact.php">Contact</a>
               </li>
             </ul>
           </span>
