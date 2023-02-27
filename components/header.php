@@ -12,7 +12,7 @@
     <!-- Custom styles for this template -->
     <link href="css/mystyle.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="fat">
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
       <div class="container">
