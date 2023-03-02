@@ -1,0 +1,18 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   max-width: 800px;
+   margin: auto;
+}
+   
+.landing-page-text{
+    flex-direction: column;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    }
+
+footer{
+    margin-bottom: 0 !important;
+}
