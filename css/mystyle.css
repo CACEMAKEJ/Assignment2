@@ -13,6 +13,11 @@
     justify-content: center;
     }
 
+.fat{
+    min-height: 100vh;
+}
+
 footer{
+    margin-top: auto;
     margin-bottom: 0 !important;
 }

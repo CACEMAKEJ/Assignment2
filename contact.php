@@ -44,6 +44,8 @@ frmvalidator.addValidation("email","email","Please enter a valid email address")
   </div>
 
 </main><!-- /.container -->
+<?php include 'components/footer.php';?>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     
   </body>

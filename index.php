@@ -1,13 +1,16 @@
 
 <?php include 'components/header.php';?>
-<main class="container">
-  <div class="starter-template text-center">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+<main class="containers">
+  <div class="text-center landing-page-text">
+    <h1 class="index-header">A Server-side development project </h1>
+    <p class="lead">This project contains data about non existing hotels in Ireland and their employees.</p>
+    <div>
+
+    </div>
   </div>
 
-
 </main><!-- /.container -->
+<?php include 'components/footer.php';?>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
