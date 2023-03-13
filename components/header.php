@@ -11,6 +11,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/mystyle.css" rel="stylesheet">
+    <script src="validate.js"></script>
+
   </head>
   <body class="fat">
     
@@ -33,7 +35,7 @@
                 <a class="nav-link" aria-current="page" href="employees.php">Employees</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="contact.php">Contact</a>
+                <a href="contact.php" class="btn btn-primary btn-lg" role="button">Booking</a>
               </li>
             </ul>
           </span>

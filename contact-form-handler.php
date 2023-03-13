@@ -1,8 +1,8 @@
 <?php
 
 $errors = '';
-$myemail = 'feedesson12@gmail.com';// <-----Put your DkIT email address here.
-if(empty($_POST['name'])  ||
+$myemail = 'D00250455@student.dkit.ie';// <-----Put your DkIT email address here.
+if(empty($_POST['inputGroupSelect01'])  ||
    empty($_POST['email']) ||
    empty($_POST['message']))
 {
@@ -15,7 +15,7 @@ $headers .= 'From: '.$myemail."\r\n".
     'X-Mailer: PHP/' . phpversion();
 
 
-$name = $_POST['name'];
+$hotel = $_POST['hotel'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
 
@@ -29,9 +29,9 @@ $email_address))
 if( empty($errors))
 {
         $to = $myemail;
-        $email_subject = "Contact form submission: $name";
+        $email_subject = "Contact form submission: $hotel";
         $email_body = "You have received a new message. ".
-        " Here are the details:\n Name: $name \n Email: $email_address \n Message \n $message";
+        " Here are the details:\n Selected hotel: $hotel \n Email: $email_address \n Message \n $message";
 
         mail($to,$email_subject,$email_body,$headers);
         //redirect to the 'thank you' page
